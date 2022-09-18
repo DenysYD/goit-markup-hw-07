@@ -1,0 +1,49 @@
+.customers-list {
+    display: flex;
+}
+
+.customers-list-item {
+    width: calc((100% - 150px) / 6);
+    margin-right: 30px;
+
+
+    &:nth-child(6n) {
+        margin-right: 0;
+
+        transition: fill var(--timing-functione);
+        }
+}
+
+.customers-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: border var(--timing-functione);
+
+    &:hover,
+    &:focus {
+            border: 1px solid var(--accent-color);
+            border-radius: 4px;
+        }
+}
+
+.customers-list>.icon-customers {
+    display: flex;
+    align-self: center;
+    width: 170px;
+    height: 92px;
+}
+
+.icon-customers {
+    fill: #AFB1B8;
+    transition: fill var(--timing-functione);
+
+    .customers-link:hover &,
+    .customers-link:focus & {
+            fill: var(--accent-color);
+    
+        }
+}

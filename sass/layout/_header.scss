@@ -1,0 +1,19 @@
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.logo-header {
+    margin-right: 93px;
+}
+
+.logo-beginning {
+    color: var(--color-logo-header);
+}
+
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
