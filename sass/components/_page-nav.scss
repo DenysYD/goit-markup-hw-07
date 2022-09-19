@@ -3,7 +3,7 @@
     align-items: center;
 }
 
-.list-nav {
+.page-nav__list {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -13,7 +13,7 @@
     column-gap: 50px;
 }
 
-.list-nav-item {
+.page-nav__link {
     padding-top: 24px;
     padding-bottom: 25px;
 
@@ -29,17 +29,17 @@
                 }
 }
 
-.list-nav {
+.page-nav__list {
 
     transition: var(--timing-functione);
 }
 
-.list-nav .item.current {
+.page-nav__list .item.page-nav__link--current {
     color: var(--accent-color);
     position: relative;
 }
 
-.list-nav .list-nav-item::after {
+.page-nav__list .page-nav__link::after {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -54,7 +54,7 @@
     transition: opacity var(--timing-functione);
 }
 
-.list-nav .current::after {
+.page-nav__list .page-nav__link--current::after {
     position: absolute;
     left: 0;
     bottom: 0;

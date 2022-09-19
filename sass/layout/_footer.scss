@@ -8,22 +8,22 @@ address {
     font-style: normal;
 }
 
-.end {
+.footer__theme {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--fon-teme-dark);
 }
 
-.logo-footer {
+.footer__logo {
     display: inline-block;
     margin-bottom: 20px;
 }
 
-.logo-end {
+.footer__logo-end {
     color: var(--color-logo-footer);
 }
 
-.end-list-item {
+.footer__link {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -37,25 +37,25 @@ address {
     }
 }
 
-.end-item:not(:last-child) {
+.footer__item:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.maps {
+.footer__maps {
     color: var(--primari-text-color-teme-dark);
 }
 
-.footer-modal {
+.footer__form {
     width: 570px;
     height: 86px;
 }
 
-.footer-form {
+.form {
     display: flex;
     align-items: flex-end;
 }
 
-.footer-form-text {
+.form__text {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -66,7 +66,7 @@ address {
     color: var(--primari-text-color-teme-dark);
 }
 
-.footer-form-input {
+.form__input {
     font-size: 12px;
     width: 358px;
     height: 50px;
@@ -83,12 +83,12 @@ address {
     transition: border-color var(--timing-functione)
 
 }
-.footer-form-input:focus {
+.form__input:focus {
     outline: none;
     border-color: var(--accent-color);
 }
 
-.footer-form-input::placeholder {
+.form__input::placeholder {
     font-size: 16px;
     line-height: 1.25;
     color: rgba(255, 255, 255, 0.6);
@@ -121,6 +121,6 @@ address {
 
 }
 
-.footer-form-btn-icon {
+.footer-form-btn__icon {
     margin-left: 10px;
 }

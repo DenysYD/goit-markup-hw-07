@@ -1,8 +1,8 @@
-.customers-list {
+.customers__list {
     display: flex;
 }
 
-.customers-list-item {
+.customers__item {
     width: calc((100% - 150px) / 6);
     margin-right: 30px;
 
@@ -14,7 +14,7 @@
         }
 }
 
-.customers-link {
+.customers__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,19 +30,19 @@
         }
 }
 
-.customers-list>.icon-customers {
+.customers-list>.customers__icon {
     display: flex;
     align-self: center;
     width: 170px;
     height: 92px;
 }
 
-.icon-customers {
+.stomeicon-curs {
     fill: #AFB1B8;
     transition: fill var(--timing-functione);
 
-    .customers-link:hover &,
-    .customers-link:focus & {
+    .customers__link:hover &,
+    .customers__link:focus & {
             fill: var(--accent-color);
     
         }

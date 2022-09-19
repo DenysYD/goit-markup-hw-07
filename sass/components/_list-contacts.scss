@@ -14,13 +14,13 @@
         }
 }
 
-.icon-contacts {
+.list-contacts__icon {
     margin-right: 10px;
     fill: currentColor;
     vertical-align: middle;
 }
 
-.list-contacts-item {
+.list-contacts__link {
     color: var(--primari-text-color-teme-light);
     transition: color var(--timing-functione);
     padding-top: 24px;

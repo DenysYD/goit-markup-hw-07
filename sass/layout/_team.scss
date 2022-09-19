@@ -4,12 +4,12 @@
 
 }
 
-.team-list {
+.team__list {
     display: flex;
     /* gap: 30px; */
 }
 
-.team-list-item {
+.team__item {
     width: calc((100% - 90px) / 4);
     margin-right: 30px;
     background: #ffffff;
@@ -25,7 +25,7 @@
     }
 }
 
-.team-worker {
+.team__worker {
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -34,14 +34,14 @@
     color: var(--secondary-text-color-teme-light);
 }
 
-.team-jobs {
+.team__jobs {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     margin-bottom: 16px;
 }
 
-.team-info {
+.team__info {
     padding-top: 30px;
     padding-right: 30px;
     padding-left: 30px;

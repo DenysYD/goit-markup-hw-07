@@ -2,11 +2,11 @@
     padding-top: 0;
 }
 
-.creation-list {
+.creation__list {
     display: flex;
 }
 
-.creation-list-item {
+.creation__item {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
 
@@ -15,11 +15,11 @@
     }
 }
 
-.creation-card {
+.creation__card {
     position: relative;
 }
 
-.creation-text {
+.creation__text {
     position: absolute;
     font-weight: 700;
     font-size: 14px;
