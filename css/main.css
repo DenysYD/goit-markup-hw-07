@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --accent-color: #2196F3;
   --primari-text-color-teme-dark: #ffffff;
@@ -28,6 +29,7 @@
   margin: -1px;
 }
 
+/* @include font(14px, 700, 12px) по умолчанию  */
 h1,
 h2,
 h3,
@@ -128,13 +130,11 @@ body {
 .list-contacts-item {
   color: var(--primari-text-color-teme-light);
   transition: color var(--timing-functione);
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .list-contacts-item:hover, .list-contacts-item:focus {
   color: var(--accent-color);
-}
-.list-contacts-item {
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .title {
@@ -200,6 +200,10 @@ body {
 }
 
 .list-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   display: flex;
   align-items: center;
   column-gap: 50px;
@@ -218,10 +222,6 @@ body {
 }
 
 .list-nav {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   transition: var(--timing-functione);
 }
 
@@ -338,6 +338,10 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition: opacity var(--timing-functione);
+}
+
+.backdrop.is-hidden.modal {
+  transform: translate(-50%, -50%) scale(0.9);
 }
 
 .backdrop.is-hidden {
@@ -557,6 +561,8 @@ body {
 
 .logo-header {
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo-beginning {
@@ -621,8 +627,8 @@ body {
 
 .advantage-title {
   margin-bottom: 10px;
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;

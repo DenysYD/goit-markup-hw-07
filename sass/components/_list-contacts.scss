@@ -23,6 +23,8 @@
 .list-contacts-item {
     color: var(--primari-text-color-teme-light);
     transition: color var(--timing-functione);
+    padding-top: 24px;
+    padding-bottom: 25px;
 
     &:hover,
     &:focus {
@@ -30,8 +32,4 @@
     
         }
 
-    & {
-            padding-top: 24px;
-            padding-bottom: 25px;
-                }
 }

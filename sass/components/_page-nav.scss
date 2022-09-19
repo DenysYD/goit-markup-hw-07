@@ -4,6 +4,10 @@
 }
 
 .list-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     display: flex;
     align-items: center;
     column-gap: 50px;
@@ -26,10 +30,6 @@
 }
 
 .list-nav {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
 
     transition: var(--timing-functione);
 }
