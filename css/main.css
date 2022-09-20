@@ -747,18 +747,18 @@ body {
   border-radius: 4px;
 }
 
-.customers-list > .customers__icon {
+.customers__list > .customers__icon {
   display: flex;
   align-self: center;
   width: 170px;
   height: 92px;
 }
 
-.stomeicon-curs {
+.customers__icon {
   fill: #AFB1B8;
   transition: fill var(--timing-functione);
 }
-.customers__link:hover .stomeicon-curs, .customers__link:focus .stomeicon-curs {
+.customers__link:hover .customers__icon, .customers__link:focus .customers__icon {
   fill: var(--accent-color);
 }
 

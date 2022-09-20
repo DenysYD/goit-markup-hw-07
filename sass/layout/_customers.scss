@@ -30,14 +30,14 @@
         }
 }
 
-.customers-list>.customers__icon {
+.customers__list>.customers__icon {
     display: flex;
     align-self: center;
     width: 170px;
     height: 92px;
 }
 
-.stomeicon-curs {
+.customers__icon {
     fill: #AFB1B8;
     transition: fill var(--timing-functione);
 
